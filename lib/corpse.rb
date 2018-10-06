@@ -1,5 +1,5 @@
-require "corpse/game.rb"
-require "corpse/player.rb"
+require "./lib/corpse/game.rb"
+require "./lib/corpse/player.rb"
 
 def serialize_game(game)
   { status: game.status, players: game.players, rounds: game.rounds }
